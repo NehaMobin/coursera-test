@@ -1,0 +1,116 @@
+div{
+
+width: 100%;
+
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 20px;
+	
+}
+p {
+	font-family:  cursive, Arial, Helvetica, sans-serif;
+	height: 200%;
+	margin: 10px;
+	color: black;
+	padding: 15px;
+	
+}
+@media (min-width: 992px) {  /*desktop view*/
+
+
+.func4 {
+border: 1px solid black;
+margin: 23px;
+background: gray;
+
+float: left;
+width: 28%;
+
+}
+@media (max-width: 767px){   /*mobile view*/
+
+ 
+.func1 {
+	background: gray;
+	border: 1px solid black;
+    float: left;
+    margin-top: 15px;
+  }
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){  /*tablet view*/
+
+.func6,.func2 {
+
+border: 1px solid black;
+background: gray;
+float: left;
+
+
+}
+
+.func6 {
+
+ width:45%;
+ margin-right: 10px;
+ margin-left:15px;
+ margin-bottom: 10px;
+ 
+
+}
+
+.func2 {
+
+width:94%;
+margin-top: 15px;
+margin-left: 10px;
+
+}
+}
+
+
+
+
+#h11{
+    
+    float: right;
+	top:0;
+	background-color: red;
+	font-family:   Arial, sans-serif;
+	width: 50%;
+	height: 8%;
+	text-align: center;
+	border: 2px solid black;
+	font-weight: bold;
+}
+
+#h22{
+    
+    float: right;
+	top:0;
+	background-color: blue;
+	font-family:   Arial;
+	width: 50%;
+	height: 8%;
+	text-align: center;
+	border: 2px solid black;
+	font-weight: bold;
+}
+
+#h33{
+    
+    float: right;
+	top:0;
+	background-color: yellow;
+	font-family:   Arial, sans-serif;
+	width: 50%;
+	height: 8%;
+	text-align: center;
+	border: 2px solid black;
+	font-weight: bold;
+}
